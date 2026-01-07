@@ -1,5 +1,69 @@
+# ============================================
+# Secrets & Environment
+# ============================================
 .env
+.env.local
+.env.*.local
 
+# ============================================
+# Generated Output Files
+# ============================================
+# Video Indexer JSON outputs (contain account IDs, video metadata)
 *.json
+!package.json
+!tsconfig.json
+
+# Video files (large files)
 *.mp4
-requirement.txt
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# State files (contain IDs)
+.notion_state.json
+*.state.json
+
+# ============================================
+# Python
+# ============================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ============================================
+# Dependencies
+# ============================================
+requirements*.txt
+requirement*.txt
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ============================================
+# IDE & Editors
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ============================================
+# Logs & Temporary
+# ============================================
+*.log
+logs/
+*.tmp
+*.temp
+.cache/
