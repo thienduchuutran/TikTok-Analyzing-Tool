@@ -1,0 +1,8 @@
+requests
+python-dotenv
+azure-storage-blob
+rapidfuzz
+unidecode
+faster-whisper
+ffmpeg-python
+openai
